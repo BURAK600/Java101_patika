@@ -10,29 +10,24 @@ public class NotHesapla {
 
         Scanner input = new Scanner(System.in);
 
-        System.out.println("Lütfen matematik notunuzu giriniz");
+        System.out.println("Lutfen matematik notunuzu giriniz");
         matematikN = input.nextInt();
-
-        System.out.println("Lütfen fizik notunuzu giriniz");
+        System.out.println("Lutfen fizik notunuzu giriniz");
         fizikN = input.nextInt();
-
-        System.out.println("Lütfen kimya notunuzu giriniz");
+        System.out.println("Lutfen kimya notunuzu giriniz");
         kimyaN = input.nextInt();
-
-        System.out.println("Lütfen türkçe notunuzu giriniz");
+        System.out.println("Lutfen turkce notunuzu giriniz");
         turkceN = input.nextInt();
-
-        System.out.println("Lütfen tarih notunuzu giriniz");
+        System.out.println("Lutfen tarih notunuzu giriniz");
         tarihN = input.nextInt();
-
-        System.out.println("Lütfen müzik notunuzu giriniz");
+        System.out.println("Lutfen muzik notunuzu giriniz");
         muzikN = input.nextInt();
 
         ortalama = (matematikN + fizikN + kimyaN + turkceN + tarihN + muzikN)/6;
 
-        System.out.println("ortalamanız : " + ortalama);
+        System.out.println("ortalamaniz : " + ortalama);
 
-        String str = (ortalama >= 60) ? "Sınıfı geçti" : "Sınıfta kaldı";
+        String str = (ortalama >= 60) ? "Sinifi gecti" : "Sinifta kaldi";
         System.out.println(str);
 
     }
