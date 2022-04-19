@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class Deneme {
+public class Deneme {
+    public static void main(String[] args) {
+        System.out.println("hello word");
+    }
 }
