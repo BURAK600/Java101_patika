@@ -14,6 +14,9 @@ public class Deneme {
 
 import com.sun.tools.javac.Main;
 
+
+
+/*
 import java.util.Scanner;
 public class Deneme {
     public static void main(String[] args) {
@@ -35,4 +38,18 @@ public class Deneme {
         }
     }
 
+}
+*/
+
+public class Deneme {
+    public static void main(String[] args) {
+        int sum = 0;
+        for (int i = 0, j = 0; i < 5 || j < 5; ++i, j = i + 1) {
+            System.out.println("i nin degeri: " + i);
+            System.out.println("j nin degeri: " + j);
+            sum += i;
+            System.out.println("sum degeri: " + sum);
+        }
+        System.out.println(sum);
+    }
 }
