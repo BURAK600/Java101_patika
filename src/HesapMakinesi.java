@@ -30,7 +30,6 @@ public class HesapMakinesi {
                 break;
         }
         System.out.println("Yanlis secim yaptiniz. Tekrar deneyiniz");
-
     }
 }
 

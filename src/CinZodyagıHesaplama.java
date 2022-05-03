@@ -46,10 +46,6 @@ public class CinZodyagıHesaplama {
             case(12):
                 System.out.println("Cin Zodyagi Burcunuz: Maymun ");
                 break;
-
         }
-
-
-
     }
 }
