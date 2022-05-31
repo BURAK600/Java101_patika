@@ -7,15 +7,23 @@ import java.util.Arrays;
 
 public class NearestNumber {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-        System.out.print("Number: ");
-        int number = input.nextInt();
 
-        int min = 0, max = 0;
 
-        // 5
+
         int[] arr = {15, 12, 788, 1, -1, -778, 2, 0};
         Arrays.sort(arr);
+        Scanner input = new Scanner(System.in);
+        int number;
+
+        // girilen sayı dizinin elemanlarının en küçüğünden büyük ve en büyüğünden küçük olmalı
+        do {
+
+            System.out.print("Number: ");
+            number = input.nextInt();
+        }
+        while(!(number>arr[0] && number<arr[arr.length-1]));
+        int min = 0, max = 0;
+
 
         for (int i = 0;i<arr.length;i++)
         {
@@ -27,7 +35,6 @@ public class NearestNumber {
         }
         System.out.println(max);
         System.out.println(min);
-
     }
     }
 
