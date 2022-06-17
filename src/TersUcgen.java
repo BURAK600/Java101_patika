@@ -8,6 +8,8 @@ public class TersUcgen {
         int n = scanner.nextInt();
         int k =0;
         while(2*n!=0){
+
+
             for(int j = 0;j<k;j++){
                 System.out.print(" ");
             }
