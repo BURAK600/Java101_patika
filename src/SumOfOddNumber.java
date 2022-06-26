@@ -10,7 +10,7 @@ public class SumOfOddNumber {
         do{
             System.out.println("Enter a number");
             n = scanner.nextInt();
-            if(n%2==0){
+            if(n%4==0){
                 sum +=n;
             }
 
