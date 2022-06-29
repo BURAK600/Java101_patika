@@ -6,6 +6,6 @@
 
 - There are employees belonging to the university. These employees can be professors or civil servants.
 
-- Every employee works in an office.
+- Every employee works in an office..
 
 ![dosya](üniversite yönetim sistemi.png)
