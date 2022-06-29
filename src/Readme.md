@@ -8,4 +8,4 @@
 
 - Every employee works in an office.
 
-![dosya](C:\Users\user\Desktop\java_eğitim\oop\üniversite yönetim sistemi.png)
+![dosya](üniversite yönetim sistemi.png)
