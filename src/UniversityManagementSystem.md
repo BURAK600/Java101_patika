@@ -8,4 +8,4 @@
 
 - Every employee works in an office..
 
-![dosya](üniversite yönetim sistemi.png)
+![üniversite yönetim sistemi](https://user-images.githubusercontent.com/72358222/176538642-385c0a92-2117-4a8c-84b5-f330b4cfed44.png)
