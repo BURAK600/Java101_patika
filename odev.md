@@ -15,4 +15,4 @@ Hayvanlar:
 Polimorfizm modelini kullanarak, yukarıda açıklanan durumu ele almak için bir sınıf diyagramı tasarlayın.
 
 
-![UML diagram](C:\Users\user\Downloads\odev.png)
+![UML diagram](C:/Users/user/Desktop/java/exercise1/odev.png)
